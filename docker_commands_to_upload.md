@@ -1,3 +1,19 @@
+# What is Docker?
+- If you are a developer, have you ever experienced this problem that your app **works perfectly on your laptop**, but when you give it to someone else, it crashes because their system is different !!  
+- That's because maybe the other system has different software versions or missing dependencies. 
+- Docker solves this problem by putting everything inside a big box called **container**, which ensures that your app runs exactly the same everywhere — on your laptop, on a server, or in the cloud. _Right?_
+
+### Now what is a Container?
+- A container is a **lightweight machine** that includes everything an application needs to run like Code, Dependencies and the environment etc..
+- If you know a virtual machine (VM), it runs a full operating system, but a container **shares the host OS kernel**.
+### Think of it like this
+- A virtual machine is like shipping a **full coffee shop** (big, heavy, slow).
+- A container is like just shipping the **coffee cup** (small, light, fast).
+
+## Now what did you understood?
+- Docker is a **_containerization platform_** that is used to 'create', 'manage', and 'run' containers, just like Virtual Machine Managers (**VMware or VirtualBox**) are used to create and manage virtual machines. _Theek hai?_
+
+---
 ## **1. Docker Installation and Setup**
 1. **`apt update`**  
    Updates the package list on the host system.
